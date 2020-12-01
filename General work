@@ -1,0 +1,93 @@
+\documentclass[a4paper, 12 pt]{article}
+
+\usepackage{pslatex}
+\usepackage{subfigure}
+\usepackage{cancel}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage[final]{pdfpages}
+\usepackage{gensymb}
+\usepackage{blindtext}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{setspace}
+\usepackage[brazil]{babel}
+\usepackage{xcolor}
+\usepackage[numbers]{natbib}
+\usepackage{float}
+\usepackage[useregional]{datetime2}
+\usepackage{indentfirst}
+\usepackage[version=4]{mhchem}
+\usepackage[top = 15mm, right = 25mm, left = 25mm, bottom = 20mm]{geometry}
+
+
+\usepackage[colorlinks=true,citecolor=blue]{hyperref}
+
+\usepackage{graphicx}
+
+\usepackage{tikz}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+ 
+\urlstyle{same}
+\renewcommand{\CancelColor}{\color{blue}}
+
+
+\begin{document}
+
+\thispagestyle{empty}
+\begin{center}
+\begin{minipage}[s]{2.75cm} \includegraphics[scale=0.07]{unb.png}
+\end{minipage}\begin{minipage}[H]{11.25cm}\noindent
+{\begin{center} {\Large Universidade de Brasília}\\
+{Instituto de Química}\\
+{\sc Divisão de Química Tecnológica}
+\end{center}}
+\end{minipage}
+\begin{minipage}[H]{0.5cm}
+\end{minipage}
+\end{center}
+
+\vspace{3cm}
+\font\fontGrande=cmcsc10 scaled 2500
+\font\pessoal=cmr9 scaled 2500
+
+\hrule
+\begin{center}
+\noindent{\Huge {\sc Title}}\\
+\vspace{0.5cm}
+\hrule
+
+\normalsize \vspace{1.5cm}
+
+\vspace{3.5cm}
+
+{\bf  Leonardo Otávio Bispo da Silva (16/0131502)}
+
+\vspace{1.5cm}
+
+{\footnotesize{Curricular component
+}}
+
+\vspace{3.5cm}
+
+Docente: {\bf  Professor name}
+\vspace{4.5cm}
+
+{\footnotesize{\today}}
+\end{center}
+\clearpage
+
+\clearpage
+\begin{centering}
+\section*{\sc Topic}
+\end{centering}
+
+
+\end{document}
